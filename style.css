@@ -28,7 +28,6 @@ body {
   font-size: 28px;
   cursor: pointer;
   color: #007acc;
-  
 }
 
 /* Menu Links */
@@ -51,7 +50,7 @@ ul.sidenav li a {
 }
 
 ul.sidenav li a:hover:not(.active) {
-  background-color:dimgrey;
+  background-color: dimgrey;
   color: white;
 }
 
@@ -62,7 +61,7 @@ ul.sidenav li a.active {
 
 /* ========= HERO SECTION ========= */
 .hero {
-  margin-top: 80px; 
+  margin-top: 80px;
   min-height: 15vh;
   display: flex;
   justify-content: center;
@@ -80,8 +79,31 @@ ul.sidenav li a.active {
 }
 
 .hero h1 span {
-  color: #ffeb3b;
+  color: rgb(235, 223, 223);
 }
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgb(235, 223, 223);
+  margin-bottom: 20px;
+}
+.hero-social {
+    margin-top: 15px;
+}
+
+.hero-social a {
+    color: rgb(247, 226, 226);
+    margin: 0 10px;
+    font-size: 1.5em;
+    transition: transform 0.3s ease;
+}
+
+.hero-social a:hover {
+    transform: scale(1.2);
+}
+
 
 /* ========= SECTIONS ========= */
 section {
@@ -91,7 +113,9 @@ section {
   max-width: 900px;
   padding: 40px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 section:hover {
@@ -104,9 +128,8 @@ h2 {
   text-align: center;
   margin-bottom: 20px;
 }
-h3{
+h3 {
   color: #007acc;
-  
 }
 
 .project ul {
@@ -122,25 +145,26 @@ a:hover {
   text-decoration: underline;
 }
 
-
 .experience {
   background: #f9f9f9;
   border-left: 4px solid #00bcd4;
   padding: 15px 20px;
   margin-bottom: 25px;
   border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .experience:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .experience-header {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 8px;
@@ -148,10 +172,9 @@ a:hover {
 .experience-title {
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
   color: #007acc;
   font-weight: 600;
-  
 }
 
 .experience-title i {
@@ -182,7 +205,7 @@ footer {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px; 
+    top: 60px;
     left: 0;
     width: 100%;
     background-color: #fff;
@@ -194,7 +217,7 @@ footer {
 
   ul.sidenav.show {
     display: flex;
-    max-height: 300px; 
+    max-height: 300px;
   }
 
   ul.sidenav li {
@@ -208,6 +231,6 @@ footer {
 
   /* Push hero down when menu opens */
   body.menu-open .hero {
-    margin-top: 260px; 
+    margin-top: 260px;
   }
 }

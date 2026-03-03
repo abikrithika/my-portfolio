@@ -14,15 +14,13 @@
 
 ## Project Structure (ASCII Diagram)
 
-My Portfolio Project Structure
-
-MY PORTFOLIO/
+portfolio/
 │
-├── index.html
-├── style.css
-├── script.js
-├── profilepic.jpeg
-└── reflection.md
+├── index.html # Main HTML file
+├── style.css # Stylesheet with all styles
+├── script.js # JavaScript file for menu toggle and interactions
+├── profilepic.jpeg # Profile picture image
+└── reflection.md # Reflection and assignment documentation
 
 ## Key Learnings
 
@@ -32,12 +30,14 @@ MY PORTFOLIO/
 
 3. I learned why separating JavaScript from HTML improves maintainability and follows best development practices.
 
+4. I learned how implementing accessibility features, such as a skip-to-main-content link, improves usability for keyboard and screen reader users.
+
 ## Part B – Ethics and Risks of AI in Development
 
 ### 1. Over-Reliance on AI
 
 AI tools can make developers dependent and reduce critical thinking skills.
-Mitigation: I will always review and understand AI-generated code before using it. I mainly use AI for self-paced learning by asking what, why, where, and how questions, focusing on understanding concepts and implementation steps rather than just receiving full solutions.
+Mitigation: I will always review and understand AI-generated code before using it. I mainly use AI for self-paced learning by asking questions such as what, why, where, and how, focusing on understanding concepts and implementation steps rather than receiving full solutions.
 
 ### 2. Security Risks
 
@@ -48,4 +48,3 @@ Mitigation: I will test and review AI-generated code carefully before deploying 
 
 AI-generated code may unintentionally resemble copyrighted work.
 Mitigation: I will treat AI output as a learning aid and ensure I understand and modify the code appropriately.
-
